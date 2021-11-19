@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: lightgray;
+}
+h1 {
+  display: center;
+  text-align: center;
+  font-family: "Sacramento", cursive;
+  font-weight: 100;
+  font-size: 4rem;
+  color: darkslategrey;
+}
+.Flower {
+  display: flex;
+  justify-content: center;
+}
+.color-palette {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.color-swatch {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin: 9px;
+  cursor: pointer;
+}
+.color-swatch-active {
+  box-shadow: inset 2 2 15px;
+  transition: all 0.5s;
+}
